@@ -10,5 +10,5 @@ app.get('/', (req, res) => {
 })
 
 http.createServer(app).listen(3333, () => {
-    console.log('Listening... !')
+    console.log('Listening...')
 })
